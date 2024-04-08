@@ -12,6 +12,7 @@ Hello
 <|assistant|>
 Hello, I'm ChatGLM3. What can I assist you today?
 ```
+**实际中每轮对话内容并不一定以换行符结尾，这里只是为了美观，下同**
 
 #### 对话头
 对话头占完整的一行，格式为
@@ -130,6 +131,7 @@ data[:5]
 ```
 <|assistant|>
 该文件看起来包含有关某些条目的元数据，每个条目有以下字段：
+
 
 - `file_name`: 文件名称
 - `name`: 名称
